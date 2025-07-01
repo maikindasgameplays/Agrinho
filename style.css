@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #20ce09a8;
+  background-color: #34D399;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   padding: 10px 0;
@@ -29,21 +29,21 @@
 }
 
 #maikon ul li a:hover {
-  color: #93C5FD;
+  color: #10B981;
   transform: translateY(-2px);
 }
 
 body {
   padding-top: 80px;
-  background-color: #EFF6FF;
+  background-color: #E5F8F1;
   font-family: 'Poppins', sans-serif;
-  color: #2F3B55;
+  color: #065F46;
 }
 
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
-  background: #E0F2FE;
+  background: #A7F3D0;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(50, 100, 150, 0.2);
@@ -51,22 +51,22 @@ body {
 }
 
 #contato h2 {
-  color: #1E40AF;
-  border-bottom: 3px solid #1D4ED8;
+  color: #065F46;
+  border-bottom: 3px solid #065F46;
   padding-bottom: 8px;
   margin-bottom: 20px;
   font-size: 2em;
 }
 
 #contato p {
-  color: #3B82F6;
+  color: #065F46;
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 #contato a {
-  color: #1E3A8A;
+  color: #10B981;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -76,7 +76,7 @@ body {
   flex-direction: column;
   gap: 30px;
   padding: 40px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -88,18 +88,18 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background-color: #F3F4F6;
+  background-color: #F1F5F9;
   padding: 20px;
   border-radius: 8px;
 }
 
 .ideias article:hover {
-  background-color: #E0F2FE;
+  background-color: #A7F3D0;
   transform: translateY(-5px);
 }
 
 .ideias h4 {
-  color: #1E3A8A;
+  color: #065F46;
   font-size: 1.5em;
   margin: 0;
 }
@@ -111,7 +111,7 @@ body {
 }
 
 .ideias .link {
-  color: #E0F2FE;
+  color: #34D399;
   display: inline-block;
   margin-top: 10px;
   padding: 12px 24px;
@@ -129,7 +129,7 @@ body {
 
 .noticia h2 {
   font-size: 2.5em;
-  color: #1E3A8A;
+  color: #065F46;
   margin: 0;
   font-weight: 600;
 }
