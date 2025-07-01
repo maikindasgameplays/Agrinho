@@ -35,7 +35,7 @@
 
 body {
   padding-top: 80px;
-  background-color: #ffffff;
+  background-color: #e6f5e5;
   font-family: 'Poppins', sans-serif;
   color: #4B3C31;
 }
@@ -76,7 +76,7 @@ body {
   flex-direction: column;
   gap: 30px;
   padding: 40px;
-  background: #2e5821;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
