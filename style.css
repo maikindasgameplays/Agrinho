@@ -35,7 +35,7 @@
 
 body {
   padding-top: 80px;
-  background-color: #276625;
+  background-color: #e6f5e5;
   font-family: 'Poppins', sans-serif;
   color: #4B3C31;
 }
@@ -43,7 +43,7 @@ body {
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
-  background: #D1C7B7;
+  background: #214911;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(50, 100, 150, 0.2);
