@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #34D399;
+  background-color: #4D7C3C;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   padding: 10px 0;
@@ -29,21 +29,21 @@
 }
 
 #maikon ul li a:hover {
-  color: #10B981;
+  color: #7D5A47;
   transform: translateY(-2px);
 }
 
 body {
   padding-top: 80px;
-  background-color: #E5F8F1;
+  background-color: #F5F3E5;
   font-family: 'Poppins', sans-serif;
-  color: #065F46;
+  color: #4B3C31;
 }
 
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
-  background: #A7F3D0;
+  background: #D1C7B7;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(50, 100, 150, 0.2);
@@ -51,22 +51,22 @@ body {
 }
 
 #contato h2 {
-  color: #065F46;
-  border-bottom: 3px solid #065F46;
+  color: #4B3C31;
+  border-bottom: 3px solid #4B3C31;
   padding-bottom: 8px;
   margin-bottom: 20px;
   font-size: 2em;
 }
 
 #contato p {
-  color: #065F46;
+  color: #7D5A47;
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 #contato a {
-  color: #10B981;
+  color: #4D7C3C;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -88,18 +88,18 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background-color: #F1F5F9;
+  background-color: #F5F3E5;
   padding: 20px;
   border-radius: 8px;
 }
 
 .ideias article:hover {
-  background-color: #A7F3D0;
+  background-color: #D1C7B7;
   transform: translateY(-5px);
 }
 
 .ideias h4 {
-  color: #065F46;
+  color: #4B3C31;
   font-size: 1.5em;
   margin: 0;
 }
@@ -107,11 +107,11 @@ body {
 .ideias p {
   max-width: 800px;
   margin: 0 auto;
-  color: #4B5563;
+  color: #7D5A47;
 }
 
 .ideias .link {
-  color: #34D399;
+  color: #4D7C3C;
   display: inline-block;
   margin-top: 10px;
   padding: 12px 24px;
@@ -129,7 +129,7 @@ body {
 
 .noticia h2 {
   font-size: 2.5em;
-  color: #065F46;
+  color: #4B3C31;
   margin: 0;
   font-weight: 600;
 }
