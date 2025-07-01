@@ -1,19 +1,21 @@
+/* Estilo do Navbar */
 #maikon {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #1E3A8A;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  padding: 10px 0;
 }
 
 #maikon ul {
   list-style: none;
   margin: 0;
-  padding: 10px 20px;
+  padding: 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 #maikon ul li {
@@ -24,26 +26,32 @@
   color: #A5B4FC;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1em;
-  transition: color 0.3s ease;
+  font-size: 1.2em;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 #maikon ul li a:hover {
   color: #93C5FD;
+  transform: translateY(-2px);
 }
 
+/* Cor do corpo */
 body {
-  padding-top: 60px;
+  padding-top: 80px;
   background-color: #EFF6FF;
+  font-family: 'Poppins', sans-serif;
+  color: #2F3B55;
 }
 
+/* Seção de Contato */
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
   background: #E0F2FE;
-  padding: 30px 25px;
+  padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(50, 100, 150, 0.15);
+  box-shadow: 0 4px 15px rgba(50, 100, 150, 0.2);
+  text-align: center;
 }
 
 #contato h2 {
@@ -51,77 +59,61 @@ body {
   border-bottom: 3px solid #1D4ED8;
   padding-bottom: 8px;
   margin-bottom: 20px;
-  font-size: 1.9em;
-  text-align: center;
+  font-size: 2em;
 }
 
 #contato p {
   color: #3B82F6;
   font-size: 1.1em;
-  line-height: 1.5;
-  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 #contato a {
   color: #1E3A8A;
   text-decoration: underline;
+  font-weight: bold;
 }
 
+/* Estilo da seção de Ideias */
 .ideias {
   display: flex;
-  flex-direction: column; 
-  gap: 30px; 
+  flex-direction: column;
+  gap: 30px;
   padding: 40px;
-  padding: 30px;
+  background: #fff;
   border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-size: 1.2em;
-  max-width: 100%;
-}
-
-.ideias.link {
-  color: #E0F2FE;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.noticia {
-    display: flex;
-    justify-content: space-evenly;
-     font-family: 'Poppins', sans-serif;
-}
-
-.ideias {
-  display: flex;
-  flex-direction: column; 
-  gap: 30px; 
-  padding: 40px;
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 1.2em;
-  max-width: 100%;
+  font-size: 1.1em;
 }
 
 .ideias article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
+  background-color: #F3F4F6;
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ideias article:hover {
+  background-color: #E0F2FE;
+  transform: translateY(-5px);
 }
 
 .ideias h4 {
-  text-align: left;
-  width: 100%;
+  color: #1E3A8A;
   font-size: 1.5em;
+  margin: 0;
 }
 
 .ideias p {
   max-width: 800px;
   margin: 0 auto;
+  color: #4B5563;
 }
 
 .ideias .link {
@@ -131,4 +123,19 @@ body {
   padding: 12px 24px;
   border-radius: 6px;
   text-decoration: none;
+}
+
+.noticia {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.noticia h2 {
+  font-size: 2.5em;
+  color: #1D4ED8;
+  margin: 0;
+  font-weight: 600;
 }
