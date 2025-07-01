@@ -43,7 +43,7 @@ body {
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
-  background: #bfd1b7;
+  background: #ffffff;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(50, 100, 150, 0.2);
@@ -76,7 +76,7 @@ body {
   flex-direction: column;
   gap: 30px;
   padding: 40px;
-  background: #ffffff;
+  background: #2e5821;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
