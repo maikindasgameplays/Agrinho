@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   background-color: #4b2d0c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px;
   z-index: 1000;
   padding: 10px 0;
 }
